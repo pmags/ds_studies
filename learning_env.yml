@@ -1,0 +1,13 @@
+# To use:
+#   $ conda env create -f learning_env.yml
+#   $ conda activate learningenv
+name: learningenv
+dependencies:
+    - python=3.9
+    - pip
+    - pip:
+        - pandas
+        - numpy
+        - matplotlib
+        - ipykernel
+        - sklearn
